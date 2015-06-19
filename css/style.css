@@ -39,7 +39,7 @@ body {
 #toolbar .toolbar-container {
 	overflow: hidden;
     margin: 0 auto; 
-    width: 537px;
+    width: 544px;
     border-right: 1px solid;
 }
 
@@ -72,6 +72,8 @@ body {
 #leftMenu{
 	float: left;
 	background-color: #FAFBFC;
+  position: fixed;
+  top: 92px;
 }
 
 /*共同屬性*/
