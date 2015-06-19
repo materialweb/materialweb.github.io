@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel=stylesheet type="text/css" href="css/style.css">
-    <script type="text/javascript" src="js/script.js"></script>
+    <title>Stereolithography</title>
+    <link rel=stylesheet type="text/css" href="../css/style.css">
+    <script type="text/javascript" src="../js/script.js"></script>
 </head>
 
 <body>
@@ -44,9 +44,9 @@
                     <p class="title">&nbsp;&nbsp;製成分類</p>
                     <ul>
                         <li class="page"><a href="#">粉末態</a></li>
-                        <li class="page"><a href="pages/solid.html">固態</a></li>
-                        <li class="page selected"><a href="pages/fluid.html">液態</a></li>
-                        <li class="page"><a href="pages/halfluid.html">半液態</a></li>
+                        <li class="page"><a href="#">固態</a></li>
+                        <li class="page selected"><a href="#">液態</a></li>
+                        <li class="page"><a href="#">半液態</a></li>
                     </ul>
                     <p class="title">&nbsp;&nbsp;使用材料</p>
                     <ul>
@@ -70,13 +70,37 @@
                 <div class="block" style="margin-right: 0px;">
                     <!-- Content Starts here -->
                     <div class="title-bar">
-                        <img src="images/writeup_icon.png">
-                        <h1>Permanent Mold Casting</h1>
+                        <h1>液態法_材料噴塗(material jetting，MJ)</h1>
                     </div>
-                    <!--title-bar-->
-                    <div class="mainbody"></div>
-                    <!--section-->
-                    <h2>比較表格</h2>
+                    <!--title-bar結束-->
+                    <div class="mainbody">
+                        <p class="justify">製造過程分為以下幾個步驟 :</p>
+                        <ol class="justify spacedList">
+                            <li>
+                                使噴頭(print head)位於升降平台上方。
+                            </li>
+                            <li>
+                                藉由加熱或壓電的方式(thermal or piezoelectric method)，材料液滴從噴頭射出，沉積到基板(substrate)表面。
+                            </li>
+                            <li>
+                                材料液滴固化，製造出第一層。
+                            </li>
+                            <li>
+                                依此類推，藉由後層液滴沉積在前層的方式，依次建構出第二層、第三層...。
+                            </li>
+                            <li>
+                                每一層硬化方式包含:自然冷卻硬化或照射紫外光固化。後處理時必須去除支撐材料(support material)。
+                            </li>
+                        </ol>
+                        <br>
+                        <p align="center">
+                                <img src="../images/mj.png" width="480" height="360" alt="Stereolithography" title="Stereolithography"></a>
+                            <br>
+                            <strong>圖一 液態法_材料噴塗</strong>
+                        </p>
+                    </div>
+                    <!--mainbody結束-->
+                    <h2>表格比較</h2>
                     <div class="compare">
                         <!--表格開始-->
                         <table class="specs">

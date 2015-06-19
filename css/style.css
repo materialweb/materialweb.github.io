@@ -162,6 +162,9 @@ body {
 
 .justify {
   text-align: justify;
+  font-weight: bold;
+
+
 }
 
 .mainbody p {
@@ -176,6 +179,11 @@ ol {
 .spacedList li {
   margin-bottom: 12px;
   font-size: 20px;
+  font-weight: normal;
+}
+
+#intro{
+	margin-left: 50px;
 }
 
 /*---------------設定表格部分------------------*/

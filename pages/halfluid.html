@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel=stylesheet type="text/css" href="css/style.css">
-    <script type="text/javascript" src="js/script.js"></script>
+    <title>Stereolithography</title>
+    <link rel=stylesheet type="text/css" href="../css/style.css">
+    <script type="text/javascript" src="../js/script.js"></script>
 </head>
 
 <body>
@@ -44,9 +44,9 @@
                     <p class="title">&nbsp;&nbsp;製成分類</p>
                     <ul>
                         <li class="page"><a href="#">粉末態</a></li>
-                        <li class="page"><a href="pages/solid.html">固態</a></li>
-                        <li class="page selected"><a href="pages/fluid.html">液態</a></li>
-                        <li class="page"><a href="pages/halfluid.html">半液態</a></li>
+                        <li class="page"><a href="#">固態</a></li>
+                        <li class="page selected"><a href="#">液態</a></li>
+                        <li class="page"><a href="#">半液態</a></li>
                     </ul>
                     <p class="title">&nbsp;&nbsp;使用材料</p>
                     <ul>
@@ -70,13 +70,38 @@
                 <div class="block" style="margin-right: 0px;">
                     <!-- Content Starts here -->
                     <div class="title-bar">
-                        <img src="images/writeup_icon.png">
-                        <h1>Permanent Mold Casting</h1>
+                        <h1>半液態法-熔融沉積成型 (Fused Deposition Modelling，Material Extrusion；FDM，ME)</h1>
                     </div>
-                    <!--title-bar-->
-                    <div class="mainbody"></div>
-                    <!--section-->
-                    <h2>比較表格</h2>
+                    <!--title-bar結束-->
+                    <div class="mainbody">
+						<p class="justify">簡介 :</p>
+							<p id="intro"> 材料先被捲成管狀或絲線狀，然後被餵入加熱器(heater)中受熱，在噴嘴口(nozzle)處熔融擠出，擠出後呈現半流體狀(類似牙膏)，並一層一層的沉積在升降平台(platform)上。</p>
+							
+						<p class="justify">製造過程分為以下幾個步驟 :</p>
+                        <ol class="justify spacedList">
+                            <li>
+                                在升降平台(platform)的橫截面上，第一層經由噴嘴口(nozzle)被加熱擠出。
+                            </li>
+                            <li>
+                                第二層經由噴嘴口被加熱擠出，堆疊沉積在第一層上。
+                            </li>
+                            <li>
+                               第三層、第四層…依此類推 (後層堆疊在前層上)。
+                            </li>
+                            <li>
+                              重複相同步驟直到物件加工完畢。
+                            </li>
+                           
+                        </ol>
+                        <br>
+                        <p align="center">
+                                <img src="../images/MaterialExtrusion.png" width="480" height="360" alt="Stereolithography" title="Stereolithography"></a>
+                            <br>
+                            <strong>圖一 半液態法-熔融沉積成型</strong>
+                        </p>
+                    </div>
+                    <!--mainbody結束-->
+                    <h2>表格比較</h2>
                     <div class="compare">
                         <!--表格開始-->
                         <table class="specs">
