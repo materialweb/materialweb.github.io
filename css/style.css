@@ -18,7 +18,6 @@ body {
 }
 
 
-
 /*------------------------設定head-----------------------*/
 
 #headerLogoLink {
@@ -181,7 +180,7 @@ body {
   border-color: inherit;
 }
 
-.specs thead td {
+.specs thead th {
   font-weight: bold;
   text-align: center;
 }
@@ -193,10 +192,8 @@ body {
   width: 150px;
 }
 
-/*設定比較部分*/
+/*---------------設定disclaimer------------------*/
 
-
-/*設定disclaimer*/
 .disclaimer {
   padding: 2px;
   border: 1px solid #F7FAB1;
