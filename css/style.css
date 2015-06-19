@@ -17,6 +17,8 @@ body {
     min-width: 850px;
 }
 
+
+
 /*------------------------設定head-----------------------*/
 
 #headerLogoLink {
@@ -152,5 +154,52 @@ body {
 #main .section{
 	border: 1px solid #ccc;
 	padding: 3px 5px;
-	background: red;
+}
+
+/*---------------設定表格部分------------------*/
+
+.section {
+	width: 368px;
+}
+
+.block h2{
+  background: transparent url("../images/home-map.png") repeat-x 0pt -47px;
+  color: #000;
+  padding: 3px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+}
+
+.specs thead {
+  display: table-header-group;
+  vertical-align: middle;
+  background-color: #F9F9F9;
+  border-color: inherit;
+}
+
+.specs thead td {
+  font-weight: bold;
+  text-align: center;
+}
+
+.specs th, .specs td {
+  padding: 2px 4px;
+  vertical-align: top;
+  border: 1px solid #ccc;
+  width: 150px;
+}
+
+/*設定比較部分*/
+
+
+/*設定disclaimer*/
+.disclaimer {
+  padding: 2px;
+  border: 1px solid #F7FAB1;
+  background-color: #FEFFED;
+  font-size: .8em;
 }
