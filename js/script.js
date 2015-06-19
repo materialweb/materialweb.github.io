@@ -35,7 +35,7 @@ window.onload = function()
         }
     }
     
-    /*---------------------------點擊選中選項切換效果----------------------------
+    /*---------------------------點擊選中選項切換效果------------------------------*/
     // 將所有列表取出來
     var li = document.getElementById("leftMenu").getElementsByTagName("li");
     // 為所有的列表添加添加索引與滑鼠點擊事件
@@ -45,12 +45,12 @@ window.onload = function()
         li[i].id = i;
         li[i].onclick = function(){
             // 先將所有selected類清除
-            for (var i = 0; i < ul.length; i++) {
+            for (var i = 0; i < li.length; i++) {
                li[i].className = "page";
             };
             // 再為被點擊的列表添加selected類
              li[this.id].className = "page selected";
         }
-    }--*/
+    }
     
 }
