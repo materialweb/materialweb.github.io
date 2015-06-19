@@ -123,7 +123,7 @@ body {
 }
 
 
-/*---------------設定右邊內容------------------*/
+/*---------------設定右側頂部樣式------------------*/
 
 #main .block{
 	margin-left: 180px;
@@ -143,9 +143,9 @@ body {
 }
 
 #main .title-bar h1 {
+  text-align: center;
   margin-top: 4px;
   margin-left: 4px;
-  float: left;
   font-size: 182%;
   color: #000;
 }
@@ -153,6 +153,27 @@ body {
 #main .mainbody{
 	border: 1px solid #ccc;
 	padding: 3px 5px;
+}
+
+
+/*---------------設定右側內文樣式------------------*/
+
+.justify {
+  text-align: justify;
+}
+
+.mainbody p {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+ol {
+  margin-left: 50px;
+}
+
+.spacedList li {
+  margin-bottom: 12px;
+  font-size: 20px;
 }
 
 /*---------------設定表格部分------------------*/
