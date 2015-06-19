@@ -29,12 +29,14 @@ window.onload = function()
                         //再將被點擊的顯示
                         ul[this.id].style.display = "block";
                     }
+					
                 }
 
             }
         }
     }
-    
+	/*液態3階選單顯示(SLA、MJ)*/
+	
     /*---------------------------點擊選中選項切換效果------------------------------*/
     // 將所有列表取出來
     var li = document.getElementById("leftMenu").getElementsByTagName("li");
