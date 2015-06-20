@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel=stylesheet type="text/css" href="css/style.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+    <title>固態法_疊層實物製造</title>
+    <link rel=stylesheet type="text/css" href="../css/style.css">
+    <script type="text/javascript" src="../js/script.js"></script>
 </head>
 
 <body>
@@ -36,19 +35,20 @@
         <!--hd-->
         <div id="bd">
             <div id="main">
+                <div></div>
                 <div id="leftMenu">
-                    <p class="title selected">&nbsp;&nbsp;技術簡介</p>
+                    <p class="title">&nbsp;&nbsp;技術簡介</p>
                     <ul></ul>
                     <p class="title">&nbsp;&nbsp;歷史沿革</p>
                     <ul></ul>
                     <p class="title">&nbsp;&nbsp;製成分類</p>
                     <ul>
                         <li class="page"><a href="#">粉末態法</a></li>
-                        <li class="page"><a href="pages/SL.html">固態法</a></li>
+                        <li class="page selected"><a href="./SL.html">固態法</a></li>
                         <li class="page"><a href="#">液態法</a></li>
-                        <li class="page"><a href="pages/SLA.html">&nbsp;&nbsp;立體光學固化</a></li>
-                        <li class="page"><a href="pages/MJ.html">&nbsp;&nbsp;材料噴塗</a></li>
-                        <li class="page"><a href="pages/FDM.html">半液態法</a></li>
+                        <li class="page"><a href="./SLA.html">&nbsp;&nbsp;立體光學固化</a></li>
+                        <li class="page"><a href="./MJ.html">&nbsp;&nbsp;材料噴塗</a></li>
+                        <li class="page"><a href="./FDM.html">半液態法</a></li>
                     </ul>
                     <p class="title">&nbsp;&nbsp;使用材料</p>
                     <ul>
@@ -67,27 +67,40 @@
                         <li class="page"><a href="#">連續式液態介面製造法(CLIP)</a></li>
                         <li class="page"><a href="#">超精微噴墨技術<br/>(Super fine ink jet printing)</a></li>
                     </ul>
-                    <!--***********點擊液態彈出2個選項*******************-->
-                    <div id="ms">
-                        <ol>
-                            <li class="page"><a href="#">立體光學固化(SLA)</a></a>
-                            </li>
-                            <li class="page"><a href="#">材料噴塗(MJ)</a></li>
-                        </ol>
-                    </div>
-                    <!--***********點擊液態彈出2個選項結束****************-->
                 </div>
-                <!--leftMenu結束-->
+                <!--leftMenu-->
                 <div class="block" style="margin-right: 0px;">
                     <!-- Content Starts here -->
                     <div class="title-bar">
-                        <img src="images/writeup_icon.png">
-                        <h1>Permanent Mold Casting</h1>
+                        <h1>固態法_疊層實物製造(Sheet Lamination , Laminated Object Manufacturing ;  SL  ,  LOM  )</h1>
                     </div>
-                    <!--title-bar-->
-                    <div class="mainbody"></div>
-                    <!--section-->
-                    <h2>比較表格</h2>
+                    <!--title-bar結束-->
+                    <div class="mainbody">
+                        <p class="justify">製造過程分為以下幾個步驟 :</p>
+                        <ol class="justify spacedList">
+                            <li>
+                                第一層材料被放置在　切割床(cutting bed)　某個位置上。
+                            </li>
+                            <li>
+                                用黏結劑(binder)使第二層材料與第一層互相黏合。
+                            </li>
+                            <li>
+                                用雷射或刀具切割出所需要的形狀。
+                            </li>
+                            <li>
+                                添加下一層。
+                            </li>
+                            <li>
+                                重複上述步驟直到物件加工完畢。
+                            </li>
+                        </ol>
+                        <br>
+                        <p align="center">
+                            <img src="../images/SL.png" width="480" height="360" alt="Stereolithography" title="Stereolithography"></a>
+                        </p>
+                    </div>
+                    <!--mainbody結束-->
+                    <h2>表格比較</h2>
                     <div class="compare">
                         <!--表格開始-->
                         <table class="specs">
