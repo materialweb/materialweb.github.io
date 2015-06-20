@@ -16,7 +16,6 @@ window.onload = function()
     //             //綁定滑鼠點擊事件
     //             p[i].onclick = function() 
     //             {
-
     //                 //判斷是否點擊的內容已經顯示，如果是就隱藏
     //                 if (ul[this.id].style.display == "block")
     //                     ul[this.id].style.display = "none";
@@ -35,6 +34,7 @@ window.onload = function()
     //     }
     // }
     
+
     /*---------------------------點擊選中選項切換效果------------------------------*/
     // 將所有列表取出來
     var li = document.getElementById("leftMenu").getElementsByTagName("li");

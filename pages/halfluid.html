@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stereolithography</title>
+    <link rel=stylesheet type="text/css" href="../css/style.css">
+    <script type="text/javascript" src="../js/script.js"></script>
+</head>
+
+<body>
+    <div id="doc">
+        <div id="hd">
+            <div id="header">
+                <div id="headerLogoLink" onclick="javascript:location.href='http://materialweb.github.io/'"></div>
+                <!--headerLogoLink-->
+                <div id="headerLinks"></div>
+                <!--headerLinks-->
+            </div>
+            <!--header-->
+            <div id="toolbar">
+                <div class="toolbar-container">
+                    <div class="toolbar-buttons">
+                        <a href="">技術簡介</a>
+                        <a href="">歷史沿革</a>
+                        <a href="">製成分類</a>
+                        <a href="">使用材料</a>
+                        <a href="">案例研究</a>
+                        <a href="">現況與未來趨勢</a>
+                    </div>
+                </div>
+            </div>
+            <!--toolbar-->
+        </div>
+        <!--hd-->
+        <div id="bd">
+            <div id="main">
+                <div></div>
+                <div id="leftMenu">
+                    <p class="title">&nbsp;&nbsp;技術簡介</p>
+                    <ul></ul>
+                    <p class="title">&nbsp;&nbsp;歷史沿革</p>
+                    <ul></ul>
+                    <p class="title">&nbsp;&nbsp;製成分類</p>
+                    <ul>
+                        <li class="page"><a href="#">粉末態</a></li>
+                        <li class="page"><a href="#">固態</a></li>
+                        <li class="page selected"><a href="#">液態</a></li>
+                        <li class="page"><a href="#">半液態</a></li>
+                    </ul>
+                    <p class="title">&nbsp;&nbsp;使用材料</p>
+                    <ul>
+                        <li class="page"><a href="#">金屬</a></li>
+                        <li class="page"><a href="#">陶瓷</a></li>
+                        <li class="page"><a href="#">高分子</a></li>
+                    </ul>
+                    <p class="title">&nbsp;&nbsp;案例研究</p>
+                    <ul>
+                        <li class="page"><a href="#">生物醫學</a></li>
+                        <li class="page"><a href="#">汽車</a></li>
+                        <li class="page"><a href="#">航天</a></li>
+                    </ul>
+                    <p class="title">&nbsp;&nbsp;現況與未來趨勢</p>
+                    <ul>
+                        <li class="page"><a href="#">連續式液態介面製造法(CLIP)</a></li>
+                        <li class="page"><a href="#">超精微噴墨技術<br/>(Super fine ink jet printing)</a></li>
+                    </ul>
+                </div>
+                <!--leftMenu-->
+                <div class="block" style="margin-right: 0px;">
+                    <!-- Content Starts here -->
+                    <div class="title-bar">
+                        <h1>半液態法-熔融沉積成型 (Fused Deposition Modelling，Material Extrusion；FDM，ME)</h1>
+                    </div>
+                    <!--title-bar結束-->
+                    <div class="mainbody">
+						<p class="justify">簡介 :</p>
+							<p id="intro"> 材料先被捲成管狀或絲線狀，然後被餵入加熱器(heater)中受熱，在噴嘴口(nozzle)處熔融擠出，擠出後呈現半流體狀(類似牙膏)，並一層一層的沉積在升降平台(platform)上。</p>
+							
+						<p class="justify">製造過程分為以下幾個步驟 :</p>
+                        <ol class="justify spacedList">
+                            <li>
+                                在升降平台(platform)的橫截面上，第一層經由噴嘴口(nozzle)被加熱擠出。
+                            </li>
+                            <li>
+                                第二層經由噴嘴口被加熱擠出，堆疊沉積在第一層上。
+                            </li>
+                            <li>
+                               第三層、第四層…依此類推 (後層堆疊在前層上)。
+                            </li>
+                            <li>
+                              重複相同步驟直到物件加工完畢。
+                            </li>
+                           
+                        </ol>
+                        <br>
+                        <p align="center">
+                                <img src="../images/MaterialExtrusion.png" width="480" height="360" alt="Stereolithography" title="Stereolithography"></a>
+                            <br>
+                            <strong>圖一 半液態法-熔融沉積成型</strong>
+                        </p>
+                    </div>
+                    <!--mainbody結束-->
+                    <h2>表格比較</h2>
+                    <div class="compare">
+                        <!--表格開始-->
+                        <table class="specs">
+                            <!--表格標題-->
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Typical</th>
+                                    <th>Feasible</th>
+                                </tr>
+                            </thead>
+                            <!--表格內容-->
+                            <tbody>
+                                <tr>
+                                    <td>Shapes: </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Part size:</td>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td>Materials:</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Surface finish - Ra:</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Tolerance:</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Max wall thickness:</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Quantity:</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Lead time:</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Advantages:</td>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td>Disadvantages:</td>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td>Applications:</td>
+                                    <td colspan="2"></td>
+                                </tr>
+                            </tbody>
+                            <!--表格內容結束-->
+                        </table>
+                        <!--表格結束-->
+                        <!--比較下拉選單-->
+                        <br>
+                        <div>
+                            <label for="compareWith">Compare with:</label>
+                            <select id="compareWith">
+                                <option value="Taipei">台北</option>
+                                <option value="Taoyuan">桃園</option>
+                                <option value="Hsinchu">新竹</option>
+                                <option value="Miaoli">苗栗</option>
+                            </select>
+                            <button style="width:50px;" onclick="">比對</button>
+                        </div>
+                        <!--比較下拉選單結束-->
+                        <br>
+                        <div class="disclaimer">
+                            Disclaimer: All process specifications reflect the approximate range of a process's capabilities and should be viewed only as a guide. Actual capabilities are dependent upon the manufacturer, equipment, material, and part requirements.
+                        </div>
+                    </div>
+                    <!--section結束-->
+                </div>
+                <!--block-->
+            </div>
+            <!--main-->
+        </div>
+        <!--bd-->
+    </div>
+    <!--doc-->
+</body>
+
+</html>
