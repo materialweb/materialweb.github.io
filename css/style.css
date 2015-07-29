@@ -38,7 +38,7 @@ body {
 
 #toolbar .toolbar-container {
 	overflow: hidden;
-    margin: 0 auto; 
+    margin: 0 auto;
     width: 544px;
     border-right: 1px solid;
 }
@@ -53,7 +53,7 @@ body {
 }
 
 #toolbar a:hover {
-	background: gray;	
+	background: gray;
 }
 
 /*-----------------------------設定body---------------------------*/
@@ -109,13 +109,13 @@ body {
 	float: left;
 	margin-left: 166px;
 	background-color: #FAFBFC;
-	border-bottom: 1px solid #DAD7CF;	
+	border-bottom: 1px solid #DAD7CF;
 	width: 157px;
 	float: left;
 	top: 208px;
 	border: 1px solid #DAD7CF;
 	display: none;
-	
+
 }
 .fluid a{
 	display: block;
@@ -130,7 +130,7 @@ body {
 	list-style-type: none;
 }
 .fluid a:hover{
-	
+
 	background-color: #FDFFD1;
 
 }
@@ -221,9 +221,6 @@ body {
 
 .justify {
   text-align: justify;
-  font-weight: bold;
-
-
 }
 
 .mainbody p {
