@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Document</title>
-        <link rel=stylesheet type="text/css" href="css/style.css">
-        <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" href="css/sidebar.css">
+        <link rel=stylesheet type="text/css" href="./css/style.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/sidebar.css">
         <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
         
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -22,22 +22,22 @@
                     <!--headerLinks-->
                 </div>
                 <!--header-->
-                <nav>
+                <!--<nav>
                     <ul class="nav">
-                        <li> <a href="./tech_intro.html">技術簡介</a></li>
-                        <li><a href="./history.html">歷史演進</a></li>
+                        <li> <a href="../tech_intro.html">技術簡介</a></li>
+                        <li><a href="../history.html">歷史演進</a></li>
                         <li class="dropdown">
                             <a href="index.html">液態法</a>
                             <ul>
-                                <li><a href="index.html">立體光學固化</a></li>
-                                <li><a href="index.html">黏結劑噴塗</a></li>
-                                <li><a href="index.html">材料噴塗</a></li>
+                                <li><a href="../pages/SLA.html">立體光學固化</a></li>
+                                <li><a href="../pages/BJ.html">黏結劑噴塗</a></li>
+                                <li><a href="../pages/MJ.html">材料噴塗</a></li>
                             </ul>
                         </li>
                         <li><a href="index.html">使用材料</a></li>
                         <li><a href="index.html">案例研究</a></li>
                     </ul>
-                </nav>
+                </nav>-->
                 <!--toolbar-->
             </div>
             <!--hd-->
@@ -55,28 +55,38 @@
                             <ul>
                                 <li class='has-sub'><a href='#'><span>粉末</span></a>
                                     <ul>
-                                        <li><a href='#'><span>粉床熔融法</span></a></li>
-                                        <li class='last'><a href='#'><span>直接能量沉積</span></a></li>
+                                        <li><a href='#'><span>粉床熔融法</span></a>
+                                            <ul>
+
+                                            <li class='has-sub'><a href='../pages/SLS.html'><span>選擇性雷射燒結</span></a></li>
+                                            <li class='has-sub'><a href='../pages/DMLS.html'><span>直接金屬雷射燒結</span></a></li>
+                                            <li class='has-sub'><a href='../pages/EBM.html'><span>電子束融化</span></a></li>
+                                            <li class='has-sub'><a href='../pages/SHS.html'><span>選擇性加熱燒結</span></a></li>
+                                            <li class='has-sub'><a href='../pages/SLM.html'><span>選擇性雷射熔化</span></a></li>
+                                            </ul>
+
+                                        </li>
+                                        <li class='last'><a href='../pages/DED.html'><span>直接能量沉積</span></a></li>
                                     </ul>
                                 </li>
                                 <li class='has-sub'><a href='#'><span>薄片</span></a>
                                     <ul>
-                                        <li><a href='#'><span>超音波積層製造</span></a></li>
-                                        <li class='last'><a href='#'><span>疊層物體製造</span></a></li>
+                                        <li><a href='../pages/UAM.html'><span>超音波積層製造</span></a></li>
+                                        <li class='last'><a href='../LOM.html'><span>疊層物體製造</span></a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
                         <li class='active has-sub'><a href='#'><span>液態</span></a>
                             <ul>
-                                <li class='has-sub'><a href='#'><span>立體光學固化</span></a></li>
-                                <li class='has-sub'><a href='#'><span>黏結劑噴塗</span></a></li>
-                                <li class='has-sub'><a href='#'><span>材料噴塗</span></a></li>
+                                <li class='has-sub'><a href='../pages/SLA.html'><span>立體光學固化</span></a></li>
+                                <li class='has-sub'><a href='../pages/BJ.html'><span>黏結劑噴塗</span></a></li>
+                                <li class='has-sub'><a href='../pages/MJ.html'><span>材料噴塗</span></a></li>
                             </ul>
                         </li>
-                        <li class='has-sub'><a href='#'><span>半液態</span></a>
+                        <li class='has-sub'><a href='../pages/FDM.html'><span>半液態</span></a>
                             <ul>
-                                <li class='has-sub'><a href='#'><span>熔融沉積成型</span></a>
+                                <li class='has-sub'><a href='pages/FDM.html'><span>熔融沉積成型</span></a>
                             </ul>
                         </li>
                     </ul>
@@ -86,70 +96,72 @@
 <ul>
     <li class='has-sub'><a href="#">高分子</a>
     <ul>
-        <li class='has-sub'><a href='#'><span>立體光學固化</span></a></li>
-        <li class='has-sub'><a href='#'><span>選擇性雷射燒結</span></a></li>
-        <li class='has-sub'><a href='#'><span>熔融沉積成型</span></a></li>
+        <li class='has-sub'><a href='SLAPP'><span>立體光學固化</span></a></li>
+        <li class='has-sub'><a href='SLSPP'><span>選擇性雷射燒結</span></a></li>
+        <li class='has-sub'><a href='FDMPP'><span>熔融沉積成型</span></a></li>
     </ul>
     </li>
     <li class="has-sub"><a href="#">金屬</a>
     <ul>
         <li class='has-sub'><a href='#'><span>理論基礎</span></a>
             <ul>
-                <li class='has-sub'><a href='#'><span>質量傳遞</span></a></li>
-                <li class='has-sub'><a href='#'><span>熱量傳遞</span></a></li>    
+                <li class='has-sub'><a href='../pages/MT.html'><span>質量傳遞</span></a></li>
+                <li class='has-sub'><a href='../pages/HT.html'><span>熱量傳遞</span></a></li>    
             </ul>
         </li>
         <li class='has-sub'><a href='#'><span>粉末性質</span></a>
             <ul>
-                <li class='has-sub'><a href='#'><span>顆粒尺寸</span></a></li>
-                <li class='has-sub'><a href='#'><span>吸收率與反射率</span></a></li>
-                <li class='has-sub'><a href='#'><span>鋪粉厚度</span></a></li>        
+                <li class='has-sub'><a href='../pages/PS.html'><span>顆粒尺寸</span></a></li>
+                <li class='has-sub'><a href='../pages/AR.html'><span>吸收率與反射率</span></a></li>
+                <li class='has-sub'><a href='../pages/LT.html'><span>鋪粉厚度</span></a></li>        
             </ul>
         </li>
         <li class='has-sub'><a href='#'><span>急速熔化</span></a>
         <ul style="margin-top:-40px">
-            <li class='has-sub'><a href='#'><span>金屬的膨脹熔化</span></a></li>
-            <li class='has-sub'><a href='#'><span>液態金屬的結構</span></a></li>
-            <li class='has-sub'><a href='#'><span>液態金屬的性質</span></a></li>
-            <li class='has-sub'><a href='#'><span>液態金屬的對流</span></a></li>        
-            <li class='has-sub'><a href='#'><span>效應與熔池表面形貌</span></a></li>                
+            <li class='has-sub'><a href='../pages/EXP.html'><span>金屬的膨脹熔化</span></a></li>
+            <li class='has-sub'><a href='../pages/LMS.html'><span>液態金屬的結構</span></a></li>
+            <li class='has-sub'><a href='../pages/LMP.html'><span>液態金屬的性質</span></a></li>
+            <li class='has-sub'><a href='../pages/LMC.html'><span>液態金屬的對流</span></a></li>        
+            <li class='has-sub'><a href='../pages/Mar.html'><span>效應與熔池表面形貌</span></a></li>                
         </ul>
         </li>
         <li class='has-sub'><a href='#'><span>急速凝固</span></a>
             <ul style="margin-top:-80px">
-                <li class='has-sub'><a href='#'><span>凝固參數</span></a></li>
-                <li class='has-sub'><a href='#'><span>凝固地圖</span></a></li>
-                <li class='has-sub'><a href='#'><span>凝固之熱力學模式</span></a></li>
-                <li class='has-sub'><a href='#'><span>快速凝固合金之微結構特徵</span></a></li>   
+                <li class='has-sub'><a href='../pages/SP.html'><span>凝固參數</span></a></li>
+                <li class='has-sub'><a href='../pages/SM.html'><span>凝固地圖</span></a></li>
+                <li class='has-sub'><a href='../pages/STD.html'><span>凝固之熱力學模式</span></a></li>
+                <li class='has-sub'><a href='../pages/RSMS.html'><span>快速凝固合金之微結構特徵</span></a></li>   
             </ul>
         </li>
-    </ul>
+    </ul
 </li>
 <li class="has-sub"><a href="#">陶瓷</a>
     <ul>
-        <li class='has-sub'><a href='#'><span>選擇性雷射燒結(SLS)之陶瓷材料</span></a></li>
-        <li class='has-sub'><a href='#'><span>選擇性雷射熔化(SLM)之陶瓷材料 </span></a></li>
+        <li class='has-sub'><a href='../pages/SLSCC.html'><span>選擇性雷射燒結(SLS)之陶瓷材料</span></a></li>
+        <li class='has-sub'><a href='../pages/SLMCC.html'><span>選擇性雷射熔化(SLM)之陶瓷材料 </span></a></li>
     </ul>
 </li>
 </ul>
 </div>
 <p class="title">&nbsp;&nbsp;案例研究</p>
 <ul>
-<li class="page"><a href="#">航太</a></li>
-<li class="page"><a href="#">生醫</a></li>
-<li class="page"><a href="#">模具</a></li>
-<li class="page"><a href="#">軍工</a></li>
+<li class="page"><a href="../pages/Aero.html">航太</a></li>
+<li class="page"><a href="../pages/Bio.html">生醫</a></li>
+<li class="page"><a href="../pages/Tool.html">模具</a></li>
+<li class="page"><a href="../pages/Milt.html">軍工</a></li>
 </ul>
 </div>
 <!--leftMenu結束-->
 <div class="block" style="margin-right: 0px;">
+
+
 <!-- Content Starts here -->
 <div class="title-bar">
 <img src="images/writeup_icon.png">
-<h1>Permanent Mold Casting</h1>
+<h1>Permanent Mold Casting</h1><!--把標題放在這裡!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 </div>
 <!--title-bar-->
-<div class="mainbody"></div>
+<div class="mainbody"><!--把內容放在這裡!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!--></div>
 <!--section-->
 <h2>比較表格</h2>
 <div class="compare">
